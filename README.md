@@ -11,8 +11,10 @@ docker run --name teste-postgres --network=postgres-network -e "POSTGRES_PASSWOR
 docker run --name teste-pgadmin --network=postgres-network -p 15432:80 -e "PGADMIN_DEFAULT_EMAIL=fabio.damas@gmail.com" -e "PGADMIN_DEFAULT_PASSWORD=123456" -d dpage/pgadmin4
 ```
 
+
 ### Endereço pgadmin: 
 > http://localhost:15432 
+
 
 
 ### Create new server on PGADMIN with values below:
