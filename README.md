@@ -16,7 +16,6 @@ docker run --name teste-pgadmin --network=postgres-network -p 15432:80 -e "PGADM
 
 
 ### Create new server on PGADMIN with values below:
-
 Configuração | Valor
 ------------ | -------------
 **host** | teste-postgres
