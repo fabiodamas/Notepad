@@ -14,10 +14,10 @@ docker run --name teste-pgadmin --network=postgres-network -p 15432:80 -e "PGADM
 ### Endereço pgadmin: 
 > http://localhost:15432 
 
-### Configurar:
-> host: teste-postgres
-> port: 5432
-> username: postgres
-> senha: 123456
 
-
+Configuração | Valor
+------------ | -------------
+**host** | teste-postgres
+**port** | 5432
+**username** | postgres
+**senha**| 123456
